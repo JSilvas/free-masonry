@@ -1,0 +1,15 @@
+.gallery {
+  outline: 4px dashed blue;
+  width: 100%;
+}
+
+.item {
+  background: #33333348;
+  border: solid 2px #333;
+  border-radius: 5px;
+  display: inline-block;
+  width: 300px;
+  min-height: 200px;
+  margin: 5px;
+  padding: 85px 120px;
+}

@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px dashed red; */
+  /* outline: 2px dotted whitesmoke; */
 }
 
 html {
@@ -12,9 +12,9 @@ html {
 body {
   background: #00BCD4;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   min-width: 320px;
-	height: 100vh;
+	height: 100%;
 	background: linear-gradient(-45deg, #EE7652, #E73C8E, #00BCD4, #23D5BB) fixed;
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 60s ease infinite;
