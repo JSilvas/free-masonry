@@ -17,20 +17,20 @@ const allItems = [];
 
 
 function renderItems() {
-  
+
   let galleryEl = document.getElementById('gallery');
-  
+
   let itemCount = 0;
-  
+
   while (itemCount <= 12) { // for loop to generate items
     itemCount += 1;
-    
+
     let itemEl = document.getElementById('item'); // create new html item
     // itemEl.textContent('');
 
-    itemEl.setAttribute('height', randomRatio().height);  // assignItemSize
+    itemEl.setAttribute('height', randomRatio().height); // assignItemSize
 
-    galleryEl.appendChild(itemEl);  // return new item
+    galleryEl.appendChild(itemEl); // return new item
   }
 }
 
