@@ -1,0 +1,70 @@
+h1 {
+  padding: 3vw 0 0 0;
+}
+
+/* Masonry Container */
+.masonry {
+  -webkit-columns: 4 300px;
+     -moz-columns: 4 300px;
+          columns: 4 300px;
+  column-gap: 3vw;
+  margin: 4vh auto;
+  max-width: 94vw;
+}
+
+/* Masonry Brick */
+.item {
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
+  display: inline-block;
+  width: 100%;
+  padding: 3vw;
+  margin: 0 0 3vw;
+  transition:         all 200ms;
+  -moz-transition:    all 200ms;
+  -webkit-transition: all 200ms;
+}
+
+.item:hover {
+  box-shadow: 1.5px 5px 5px .5px rgba(0, 0, 0, 0.18);
+}
+
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Masonry on very large screens */
+@media only screen and (min-width: 1800px) {
+  .masonry {
+    column-count: 4;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+  }
+}
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1799px) and (min-width: 1200px) {
+  .masonry {
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+  }
+}
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1199px) and (min-width: 600px) {
+  .masonry {
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+  }
+}
+/* Masonry on small screens */
+@media only screen and (max-width: 599px) {
+  .masonry {
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+  }
+}
