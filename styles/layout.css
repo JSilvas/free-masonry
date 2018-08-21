@@ -42,6 +42,11 @@ img, iframe {
     column-count: 4;
     -moz-column-count: 4;
     -webkit-column-count: 4;
+    column-gap: 1vw;
+  }
+  .item {
+    padding: 1vw;
+    margin: 0 0 1vw;
   }
 }
 /* Masonry on medium-sized screens */
@@ -50,6 +55,11 @@ img, iframe {
     column-count: 3;
     -moz-column-count: 3;
     -webkit-column-count: 3;
+    column-gap: 1.5vw;
+  }
+  .item {
+    padding: 1.5vw;
+    margin: 0 0 1.5vw;
   }
 }
 /* Masonry on medium-sized screens */
@@ -58,6 +68,11 @@ img, iframe {
     column-count: 2;
     -moz-column-count: 2;
     -webkit-column-count: 2;
+    column-gap: 2vw;
+  }
+  .item {
+    padding: 2vw;
+    margin: 0 0 2vw;
   }
 }
 /* Masonry on small screens */
